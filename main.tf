@@ -70,7 +70,7 @@ resource "aws_security_group" "main_sg" {
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
-    cidr_blocks = ["98.213.34.191/32"]
+    cidr_blocks = ["10.10.10.10/32"]
 
   }
 
